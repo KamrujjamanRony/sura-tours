@@ -26,6 +26,20 @@
           $color-secondary-dark
         );
       }
+      &-2 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-primary-lite,
+          $color-primary-dark
+        );
+      }
+      &-3 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-lite,
+          $color-tertiary-dark
+        );
+      }
     }
   }
   &:hover &__side--front {
@@ -48,6 +62,22 @@
           $color-secondary-dark
         ),
         url(../../assets/img/nat-5.jpg);
+    }
+    &--2 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-primary-lite,
+          $color-primary-dark
+        ),
+        url(../../assets/img/nat-6.jpg);
+    }
+    &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-lite,
+          $color-tertiary-dark
+        ),
+        url(../../assets/img/nat-7.jpg);
     }
   }
   &__heading {
@@ -72,6 +102,20 @@
         rgba($color-secondary-dark, 0.85)
       );
     }
+    &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-lite, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-lite, 0.85),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
   }
   &__details {
     padding: 3rem;
@@ -90,7 +134,7 @@
     }
   }
 
-  // FRONT PART DESIGN
+  // BACK PART DESIGN
   &__cta {
     position: absolute;
     top: 50%;
