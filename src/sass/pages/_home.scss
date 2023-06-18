@@ -25,3 +25,22 @@
   padding: 25rem 0 15rem 0;
   margin-top: -10rem;
 }
+
+.section-stories {
+  padding: 15rem 0;
+  position: relative;
+}
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to bottom right,
+    $color-primary-lite,
+    $color-primary-dark
+  );
+}
+
+.book {
+  height: 50rem;
+  background-image: url(../../assets/img/nat-10.jpg);
+}
