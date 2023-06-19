@@ -68,10 +68,7 @@
       width: 1.3rem;
       background-color: $color-primary;
       border-radius: 50%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      @include positionMiddle;
       opacity: 0;
       transition: opacity 0.2s;
     }
