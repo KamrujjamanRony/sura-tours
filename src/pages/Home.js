@@ -6,6 +6,7 @@ import Tours from "../components/home/Tours";
 import Stories from "../components/home/Stories";
 import Book from "../components/home/Book";
 import Footer from "../components/home/Footer";
+import Popup from "../components/shared/Popup";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Tours />
         <Stories />
         <Book />
+        <Popup />
       </main>
       <Footer />
     </>

@@ -4,7 +4,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <input type="checkbox" id="nav-toggle" className="navbar__checkbox" />
-            <label htmlFor="nav-toggle" className="navbar__button">Menu</label>
+            <label htmlFor="nav-toggle" className="navbar__button">
+                <span className="navbar__icon">&nbsp;</span>
+            </label>
             <div className="navbar__background">&nbsp;</div>
             <nav className="navbar__nav">
                 <ul className="navbar__list">
