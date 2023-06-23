@@ -14,6 +14,14 @@
     right: 6rem;
     cursor: pointer;
     z-index: 2000;
+    @include res(tab-port) {
+      top: 3rem;
+      right: 3rem;
+    }
+    @include res(phone) {
+      top: 2rem;
+      right: 2rem;
+    }
   }
   &__background {
     width: 6rem;
@@ -25,6 +33,14 @@
     right: 6.5rem;
     z-index: 1000;
     transition: all 0.8s cubic-bezier(0.83, 0, 0.17, 1);
+    @include res(tab-port) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
+    @include res(phone) {
+      top: 2.5rem;
+      right: 2.5rem;
+    }
   }
   &__nav {
     height: 100vh;

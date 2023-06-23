@@ -8,11 +8,22 @@
 
   @include clearfix;
 
+  @include res(tab-port) {
+    max-width: 50rem;
+    margin-bottom: $gutter-vertical-small;
+    padding: 0 3rem;
+  }
+
   [class^="col-"] {
     float: left;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
+    }
+    @include res(tab-port) {
+      width: 100% !important;
+      margin-right: 0;
+      margin-bottom: $gutter-vertical-small;
     }
   }
 

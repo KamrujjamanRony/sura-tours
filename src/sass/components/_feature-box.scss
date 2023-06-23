@@ -21,5 +21,8 @@
     );
     -webkit-background-clip: text;
     color: transparent;
+    @include res(tab-port) {
+      margin-bottom: 0;
+    }
   }
 }
